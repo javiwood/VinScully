@@ -1,3 +1,3 @@
 # VinScully
 
-This is a Vin Scully 
+This is a Vin Scully Tribute

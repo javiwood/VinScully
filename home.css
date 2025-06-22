@@ -1,24 +1,55 @@
 body {
   color: white;
-  background-color: blue;
+  background-color: #003366; /* Deeper, more elegant blue */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .main-image {
-  width: 900px;
-  align: auto;
+  width: 60%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 30px auto;
 }
 
 .main-image-border {
-  border-color: white;
-  border-width: 15px;
-  border-style: solid;
+  border: 10px solid white;
   border-radius: 50%;
 }
 
+h2 {
+  font-size: 3em;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+h2 small {
+  display: block;
+  font-size: 0.5em;
+  margin-top: 10px;
+  color: #cce6ff;
+}
+
 h3 {
-  font-size: 15pt;
-  font-weight: normal;
-  color: white;
-  margin: 40px;
-  text-indent: 150px;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 50px 20px 20px;
+  color: #e0f0ff;
+}
+
+ul.a {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+ul.a li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 1.1em;
 }
